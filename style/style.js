@@ -56,13 +56,10 @@ export default StyleSheet.create({
   },
   button: {
     margin: 10,
-    flexDirection: "row",
     padding: 3,
     backgroundColor: 'chocolate',
     width: 250,
     borderRadius: 15,
-    justifyContent: 'center',
-    alignItems: 'center',
     alignSelf:"center"
   },
   buttonText: {
