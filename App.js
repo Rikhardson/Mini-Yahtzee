@@ -5,10 +5,20 @@ import { View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { useFonts } from "expo-font";
 
 const Tab = createBottomTabNavigator();
 
 export default function App() {
+
+  const [loaded] = useFonts({
+    "RussoOne-Regular": require("./fonts/RussoOne-Regular.ttf"),
+  });
+
+  if (!loaded) {
+    return null;
+  }
+  
   return (
     <NavigationContainer>
       <Tab.Navigator

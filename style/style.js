@@ -19,16 +19,16 @@ export default StyleSheet.create({
     flexDirection: 'row'
   },
   title: {
+    fontFamily: "RussoOne-Regular",
     color: '#fff',
-    fontWeight: 'bold',
     flex: 1,
     fontSize: 23,
     textAlign: 'center',
     margin: 10,
   },
   author: {
+    fontFamily: "RussoOne-Regular",
     color: '#fff',
-    fontWeight: 'bold',
     flex: 1,
     fontSize: 15,
     textAlign: 'center',
@@ -40,6 +40,7 @@ export default StyleSheet.create({
     justifyContent: 'center'
   },
   gameinfo: {
+    fontFamily: "RussoOne-Regular",
     backgroundColor: '#fff',
     textAlign: 'center',
     justifyContent: 'center',
@@ -69,6 +70,7 @@ export default StyleSheet.create({
     fontSize: 20
   },
   gameText:{
+    fontFamily: "RussoOne-Regular",
     textAlign: "center"
   },
   playerInput:{
@@ -80,11 +82,13 @@ export default StyleSheet.create({
     marginBottom: 10
   },
   gameinfoTitle:{
+    fontFamily: "RussoOne-Regular",
     fontSize: 16,
     paddingLeft: 5,
     paddingRight: 5
   },
   infoText:{
+    fontFamily: "RussoOne-Regular",
     paddingBottom: 10,
     padding: 10
   },
